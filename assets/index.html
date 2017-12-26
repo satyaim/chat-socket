@@ -17,7 +17,7 @@
                 <div id="feedback"></div>
             </div>
             <input id="handle" type="text" placeholder="Handle" />
-            <input id="message" type="text" placeholder="Message" onkeypress="typing();" onkeyup="stopped();" />
+            <input id="message" type="text" placeholder="Message" onkeypress="typing();" onkeydown="typing();" onkeyup="stopped();" />
             <button id="send" onclick="send();">Send</button>
         </div>
 
